@@ -1,0 +1,219 @@
+レッスン11のテキストを、ブラウザでの閲覧やA4印刷・PDF化に最適な美しいデザインのHTMLコードとして出力いたしました。
+
+以下のコードをコピーして、拡張子を `.html` （例: `lesson11.html`）として保存し、ブラウザで開いてご利用ください。
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>レッスン11 日本の文字の歴史と、日本精神の源流をたどる</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .page {
+            background: #fff;
+            padding: 40px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 4px;
+        }
+        h1 {
+            font-size: 22px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 8px;
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 16px;
+            background: #2c3e50;
+            color: #fff;
+            padding: 6px 12px;
+            margin-top: 30px;
+            border-radius: 3px;
+        }
+        h3 {
+            font-size: 15px;
+            color: #2c3e50;
+            border-left: 4px solid #2c3e50;
+            padding-left: 8px;
+            margin-top: 20px;
+        }
+        .subtitle {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .meta-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        .meta-table th, .meta-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .meta-table th {
+            background-color: #f2f2f2;
+            width: 25%;
+        }
+        .vocab-list {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        .vocab-list dt {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 8px;
+        }
+        .vocab-list dd {
+            margin-left: 20px;
+            margin-bottom: 4px;
+            color: #555;
+        }
+        .grammar-box, .column-box, .memo-box {
+            background: #fdfdfd;
+            border: 1px solid #e1e1e1;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+        .note {
+            font-size: 12px;
+            color: #666;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                padding: 0;
+                margin: 0;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <h1>レッスン11 日本の文字の歴史と、日本精神の源流をたどる</h1>
+    <div class="subtitle">漢字の受容からひらがなの誕生、そして縄文時代に遡る日本精神の考察 / Advanced Japanese N2 Lesson</div>
+
+    <h2>1. ニュース記事 (音読練習)</h2>
+    <p><em>News article - read aloud at least 3 times before the lesson</em></p>
+    
+    <h3>漢字の伝来とひらがなの創出：日本独自の文字文化の歩み</h3>
+    <table class="meta-table">
+        <tr>
+            <th>テーマ</th>
+            <td>日本文字の成り立ちと変遷</td>
+        </tr>
+        <tr>
+            <th>主な内容</th>
+            <td>中国からの漢字受容と「ひらがな」の誕生</td>
+        </tr>
+        <tr>
+            <th>キーワード</th>
+            <td>単なる、～にとどまらず、文字文化、和様</td>
+        </tr>
+    </table>
+
+    <p>日本列島に漢字が伝来したのは、今からおよそ1,500年以上前のことである。大陸から伝えられた漢字は、<strong>単なる</strong>外国の文字の輸入<strong>にとどまらず</strong>、古代の日本人が自分たちの言葉（大和言葉）を記録するための試行錯誤の歴史の始まりであった。</p>
+    <p>最初は漢字の「意味」や「音」を借りて日本語を表記していたが、平安時代初期になると、その漢字の草書体から簡略化された「ひらがな」が生み出された。これは、当時の女性たちや公家たちの間で日常的な感情や和歌を綴るためのツールとして広く普及していった。</p>
+    <p>漢字という大陸からの文化的影響を受けながらも、日本人はそれを自分たちに合わせて変形させ、独自の文字文化を築き上げた。文字の歴史を振り返ることは、外国文化を受容しながら独自のアイデンティティを確立してきた日本人の歩みそのものを理解することにつながる。</p>
+    
+    <p class="note">音読の目安: 1回目はゆっくり / 2回目は意味を意識して / 3回目は自然なスピードで<br>
+    音読チェック: [ 1回目 ] [ 2回目 ] [ 3回目 ]</p>
+
+    <h2>2. 単語リスト (10語) - 上級語彙中心</h2>
+    <dl class="vocab-list">
+        <dt>1. 受容（じゅよう）</dt>
+        <dd>Acceptance / reception - 外から入ってきた文化や思想などを、受け入れて自分のものにすること。</dd>
+        <dt>2. 創出（そうしゅつ）</dt>
+        <dd>Creation - これまでにない新しいものを作り出すこと。</dd>
+        <dt>3. 簡略化（かんりゃくか）</dt>
+        <dd>Simplification - 複雑なものを、分かりやすく簡単にするプロセス。</dd>
+        <dt>4. 普及（ふきゅう）</dt>
+        <dd>Spread / popularization - 広く世間に行き渡り、使われるようになること。</dd>
+        <dt>5. 変形（へんけい）</dt>
+        <dd>Transformation - 形や構造を変えること。</dd>
+        <dt>6. 源流（げんりゅう）</dt>
+        <dd>Source / origin - 物事のはじまりや発祥の場所を指す比喩。</dd>
+        <dt>7. 形成（けいせい）</dt>
+        <dd>Formation - 一つのまとまった状態や形を作り上げること。</dd>
+        <dt>8. 顕著（けんちょ）</dt>
+        <dd>Remarkable / prominent - はっきりと目に見えて分かるさま。</dd>
+        <dt>9. 探求（たんきゅう）</dt>
+        <dd>Quest / search - 物事の真理や未知のものを明らかにしようと深く調べること。</dd>
+        <dt>10. 共生（きょうせい）</dt>
+        <dd>Symbiosis / coexistence - 異なるものが互いに影響し合いながら、一緒に生きること。</dd>
+    </dl>
+    
+    <h3>2b. 語彙スポットライト</h3>
+    <ul>
+        <li><strong>「和様（わよう）」</strong>：中国風（唐様）に対する、日本風の様式のこと。</li>
+        <li><strong>「大和言葉（やまとことば）」</strong>：漢字が伝わる前から日本にあった固有の言葉。</li>
+    </ul>
+</div>
+
+<div class="page">
+    <h2>3a. 文法練習①：「～にとどまらず」</h2>
+    <div class="grammar-box">
+        <p><strong>意味・用法：</strong>「その範囲だけに収まらず、さらに広範囲に影響や意味が及ぶ」ことを表す。</p>
+        <ul>
+            <li>文化の交流は、<strong>単なる</strong>物質のやり取り<strong>にとどまらず</strong>、人々の心や思想の共有にもつながる。</li>
+            <li>この漢字の学習は、読み書きの習得<strong>にとどまらず</strong>、日本人の歴史的背景を理解するカギになる。</li>
+        </ul>
+        <p><strong>練習①（翻訳）：</strong><br>"The influence of Chinese characters was not limited to writing, but extended deeply into the formation of Japanese culture as a whole."<br>
+        <em>模範解答：</em> 漢字の影響は文字の記録<strong>にとどまらず</strong>、日本文化全体の形成に深く及んだ。</p>
+    </div>
+
+    <h2>3b. 文法練習②：「単なる～」</h2>
+    <div class="grammar-box">
+        <p><strong>意味・用法：</strong>「特別ではない、取るに足りない、表面的なものにすぎない」という限定や、過小評価・客観的なトーンを表す。</p>
+        <ul>
+            <li>それは<strong>単なる</strong>形式的な挨拶ではなく、相手への深い敬意が込められた言葉だった。</li>
+            <li>文字の誕生は、<strong>単なる</strong>技術の伝達ではなく、文明の大きな転換点であった。</li>
+        </ul>
+        <p><strong>練習①（対話練習）：</strong><br>
+        A：「ひらがなは、漢字を単に崩して作っただけのものなのですか？」<br>
+        B：「いいえ、<strong>単なる</strong>文字の簡略化<strong>にとどまらず</strong>、日本人の感性を表現する独自の文化を生み出すものでした。」</p>
+    </div>
+
+    <h2>4. 深掘りコラム: 日本の精神の源流 — 武士道を超えて縄文へ</h2>
+    <div class="column-box">
+        <p>In recent years, global interest in Japanese history and culture has grown immensely. Yet, this fascination extends <strong>not only</strong> to surface-level aesthetics like anime, cuisine, and traditional arts, <strong>but also</strong> to a deeper search for the underlying Japanese mindset—a unique philosophy of harmony, resilience, and quiet appreciation for impermanence.</p>
+        <p>For a long time, observers traced the roots of this mindset back to the samurai code of <em>Bushido</em>. However, contemporary historical studies suggest that looking only at the feudal era is <strong>not enough</strong>. Some scholars argue that the true wellspring of spirituality lies much further back, in the ancient Jomon period—a remarkable era of peace that lasted for over 10,000 years without large-scale warfare.</p>
+        <p><strong>Discussion point for your lesson (in Japanese):</strong><br>
+        「近年の世界的な日本文化への注目は、アニメや食といった表面的なもの<strong>にとどまらず</strong>、日本人の精神性そのものに向かっています。日本精神の源流が武士道だけでなく、平和な暮らしが何千年も続いた「縄文時代」にあるかもしれないという説について、どう思いますか？」</p>
+    </div>
+
+    <h2>5. レッスン前の準備メモ</h2>
+    <div class="memo-box">
+        <p><em>Pre-lesson notes - write your thoughts in Japanese before class</em></p>
+        <ul>
+            <li>ひらがなの誕生や漢字の受容について、それが<strong>単なる</strong>文化の模倣<strong>にとどまらなかった</strong>理由を自分の言葉で考えてみましょう。</li>
+            <li>日本の伝統的な精神や価値観の源流について、あなたが日頃感じている印象を文法<strong>「～にとどまらず」</strong>を使って書いてみましょう。</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+
+```
